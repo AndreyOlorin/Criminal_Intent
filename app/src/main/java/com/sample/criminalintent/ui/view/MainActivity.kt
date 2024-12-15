@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.mainFragment
             ), drawerLayout
         )
-    } //5
+    }
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
